@@ -16,9 +16,9 @@ import java.util.List;
 @OpenAPIDefinition(
         info = @io.swagger.v3.oas.annotations.info.Info(
                 contact = @Contact(
-                        name = "Manzi Cedrick",
-                        email = "cedrickmanzii0@gmail.com",
-                        url = "https://github.com/Manzi-Cedrick"
+                        name = "Biramahire Dan bellamy",
+                        email = "bdanbellamy@gmail.com",
+                        url = "https://github.com/Bellamy01"
                 )
         )
 )
@@ -33,6 +33,6 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .servers(List.of(new Server().url(url)))
                 .components(new Components())
-                .info(new Info().contact(new io.swagger.v3.oas.models.info.Contact().email("cedrickmanzii0@gmail.com").name("Manzi Cedrick").url("https://github.com/Manzi-Cedrick")).title(serviceTitle).version(serviceVersion));
+                .info(new Info().contact(new io.swagger.v3.oas.models.info.Contact().email("bdanbellamy@gmail.com").name("Dan Bellamy").url("https://github.com/Bellamy01")).title(serviceTitle).version(serviceVersion));
     }
 }

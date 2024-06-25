@@ -25,7 +25,7 @@ public class ServiceRunner implements CommandLineRunner {
         customer.setLastName("Doe");
         customer.setBalance(1000.0);
         customer.setDob("1990-01-01");
-        customer.setEmail("cedrickmanzii0@gmail.com");
+        customer.setEmail("bdanbellamy@gmail.com");
         customer.setMobile("123456789");
         customer.setAccount("RCA0236");
         customerService.save(customer);
